@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="The Page Description">
+		<style type="text/css">@-ms-viewport{width: device-width;}</style>
+		<title>Beetle - Home page</title>
+		<link rel="stylesheet" href="css/layers.min.css" media="screen">
+		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
+		<link rel="stylesheet" href="style.css" media="screen">
+		<link rel="stylesheet" href="css/estilo.css" media="screen">
+		<link rel="stylesheet" href="fonts/icon/style.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<link rel="icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">		
+	</head>
+	<body class="page">
+		<header role="banner" class="transparent light" id="cont-menu">
+			<div class="row">
+				<div class="nav-inner row-content buffer-left buffer-right even clear-after">
+					<div id="brand">
+						<h1 class="reset"><a href="#"><img src="img/logo-3torres.png" alt="logo"></a></h1>
+					</div><!-- brand -->
+					<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+					<nav>
+						<ul class="reset" role="navigation">
+							<li class="menu-item">
+								<a href="home-01.html">Inicio</a>
+								<!-- <ul class="sub-menu">
+									<li><a href="home-01.html">Generic Home Page</a></li>
+									<li><a href="home-02.html">App Showcase</a></li>
+									<li><a href="home-03.html">App Showcase Alternative</a></li>
+								</ul> -->
+							</li>
+							<li class="menu-item">
+								<a href="works-4-columns.html">CONÓCENOS</a>
+								<!-- <ul class="sub-menu">
+									<li><a href="works-4-columns.html">Four Columns Grid Style</a></li>
+									<li><a href="works-3-columns.html">Three Columns Grid Style</a></li>
+									<li><a href="works-4-columns-alternative.html">Four Columns Mosaic Style</a></li>
+									<li><a href="works-3-columns-alternative.html">Three Columns Mosaic Style</a></li>
+									<li><a href="works-4-columns-lightbox.html">Lightbox Gallery</a></li>
+									<li><a href="single-work-post.html">Single Work Page</a></li>
+								</ul> -->
+							</li>
+							<li class="menu-item">
+								<a href="blog-4-columns-masonry.html">PROYECTOS</a>
+								<!-- <ul class="sub-menu">
+									<li><a href="blog-4-columns-masonry.html">Four Columns Grid</a></li>
+									<li><a href="blog-list-sidebar.html">List Style with Sidebar</a></li>
+									<li><a href="single-blog-post.html">Single Post</a></li>
+									<li><a href="single-blog-post-sidebar.html">Single Post with Sidebar</a></li>
+								</ul> -->
+							</li>
+							<li class="menu-item"><a href="resume.html">BLOG</a></li>
+							<li class="menu-item">
+								<a href="#">CONTÁCTANOS</a>
+								<!-- <ul class="sub-menu">
+									<li><a href="search.html">Search Page</a></li>
+									<li><a href="no-results.html">Search Page - No Results</a></li>
+									<li><a href="page-not-found.html">404 - Page Not Found</a></li>
+									<li>
+										<a href="#">Sub Menu</a>
+										<ul class="sub-menu">
+											<li><a href="#">Sub Sub Menu 01</a></li>
+											<li><a href="#">Sub Sub Menu 02</a></li>
+											<li><a href="#">Sub Sub Menu 03</a></li>
+										</ul>										
+									</li>
+								</ul>		 -->						
+							</li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div><!-- row-content -->	
+			</div><!-- row -->	
+		</header>
+		<main role="main">
+			<div id="intro-wrap">
+				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
+
+					<div class="intro-item" style="background-image: url(img/cover-principal.png);">
+
+						<div class="caption">
+
+							<h2>Beetle</h2>
+
+							<p>HTML5 template for landing page, blog and resume</p>
+
+							<a class="button white transparent" href="#">Read More</a>
+
+						</div><!-- caption -->
+
+						<div class="photocaption">
+
+							<h4>Shot by <a href="http://dribbble.com/JustinMezzell">Justin Mezzell</a></h4>
+
+						</div><!-- photocaption -->						
+
+					</div>				
+
+					<div class="intro-item" style="background-image: url(img/cover-principal.png);">
+
+						<div class="caption">
+
+							<h2>Lab desk</h2>
+
+							<p>Tools are all we need for creating good stuff</p>
+
+							<a class="button white transparent" href="#">Read More</a>
+
+						</div><!-- caption -->
+
+						<div class="photocaption">
+
+							<h4>A shot by <a href="http://madebyvadim.com/">Vadim Sherbakov</a></h4>
+
+						</div><!-- photocaption -->						
+
+					</div>						
+
+					<div class="intro-item" style="background-image: url(img/cover-principal.png);">
+
+						<div class="caption">
+
+							<h2>Jules &amp; Jim</h2>
+
+							<p>A team with over 20 years of realty experience</p>
+
+							<a class="button white transparent" href="#">Read More</a>
+
+						</div><!-- caption -->
+
+						<div class="photocaption">
+
+							<h4>Shot by <a href="http://dribbble.com/JustinMezzell">Justin Mezzell</a></h4>
+
+						</div><!-- photocaption -->						
+
+					</div>		
+
+					<div class="intro-item" style="background-image: url(img/cover-principal.png);">
+
+						<div class="caption">
+
+							<h2>Workspace</h2>
+
+							<p>We love to work inside dark rooms</p>
+
+							<a class="button white transparent" href="#">Read More</a>
+
+						</div><!-- caption -->
+					</div>																		
+
+				</div><!-- intro -->
+			</div><!-- intro-wrap -->
+			<div id="main">
+				<section class="row section call-to-action">
+					<div class="row-content buffer even">
+						<p>Have you fallen in love with Beetle?</p>
+						<a class="button red" href="http://themeforest.net/item/beetle-html-responsive-html5-template/7129185?ref=mokaine">Buy it now!</a>
+					</div>
+				</section>
+				<section class="row section">
+					<div id="suenos-cosntruidos" class="row-content buffer even clear-after">
+						<h2>SUEÑOS CONSTRUIDOS</h2>
+						<div class="column four">
+							<div class="small-icon red"><img src="img/sue-const/sue-1.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Lorem ipsum </h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four">
+							<div class="small-icon red"><img src="img/sue-const/sue-2.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Lorem ipsum </h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four last">
+							<div class="small-icon red"><img src="img/sue-const/sue-3.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Lorem ipsum </h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four">
+							<div class="small-icon red"><img src="img/sue-const/sue-4.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Duis turpis</h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four">
+							<div class="small-icon red"><img src="img/sue-const/sue-5.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Duis turpis</h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+						<div class="column four last">
+							<div class="small-icon red"><img src="img/sue-const/sue-6.png" alt=""></div>
+							<div class="small-icon-text clear-after">
+								<h4>Duis turpis</h4>
+								<p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+				</section>	
+			<section class="row section">
+				<div class="row-content buffer even clear-after">					
+					<div class="section-title"><h3>CONOCE PUERTA DEL ÁNGEL</h3></div>
+						<div class="grid-items blog-section masonry-style preload">
+							<article class="item column six">
+								<a href="#">
+									<figure><img src="img/blog-01.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Interior design</h5>
+											<h2>A confortable desk</h2>
+										</div><!-- blog-excerpt -->
+									</div><!-- blog-excerpt-inner -->	
+								</a>
+							</article>		
+							<article class="item column three">
+								<a href="#">
+									<figure><img src="img/work-03.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Relax, Hobbies</h5>
+											<h2>How I spend my time</h2>
+											<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div><!-- blog-excerpt-inner -->		
+									</div><!-- blog-excerpt -->								
+								</a>
+							</article>											
+							<article class="item column three">
+								<a href="#">
+									<figure><img src="img/blog-02.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Holidays</h5>
+											<h2>Snow &amp; silence</h2>
+											<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div><!-- blog-excerpt -->	
+									</div><!-- blog-excerpt-inner -->
+								</a>
+							</article>
+							<div class="shuffle-sizer three"></div>
+						</div><!-- grid-items -->
+						<div class="more-btn"><a class="button transparent aqua" href="#">Read all News</a></div>						
+				</div>	
+				<div class="row-content buffer even clear-after">					
+					<div class="section-title"><h3>Blog</h3></div>
+						<div class="grid-items blog-section masonry-style preload">
+							<article class="item column three">
+								<a href="#">
+									<figure><img src="img/blog-04.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Music, Headphones</h5>
+											<h2>5 Hi-Fi headphones</h2>
+											<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div><!-- blog-excerpt -->	
+									</div><!-- blog-excerpt-inner -->							
+								</a>
+							</article>	
+							<article class="item column three">
+								<a href="#">
+									<figure><img src="img/work-01.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Web Design</h5>
+											<h2>Build awesome layouts</h2>
+											<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div><!-- blog-excerpt -->	
+									</div><!-- blog-excerpt-inner -->							
+								</a>
+							</article>	
+							<article class="item column six">
+								<a href="#">
+									<figure><img src="img/blog-03.jpg" alt=""><span class="blog-overlay"><i class="icon icon-doc"></i></span></figure>
+									<div class="blog-excerpt">
+										<div class="blog-excerpt-inner">
+											<h5 class="meta-post">Photography, Instagram</h5>
+											<h2>We are all made of stars</h2>
+										</div><!-- blog-excerpt -->	
+									</div><!-- blog-excerpt-inner -->							
+								</a>
+							</article>																		
+							<div class="shuffle-sizer three"></div>
+						</div><!-- grid-items -->
+						<div class="more-btn"><a class="button transparent aqua" href="#">Read all News</a></div>						
+				</div>
+			</section>	
+				<section class="row section text-light" style="background-color:#cec8bc">
+					<div class="row-content buffer even clear-after">
+						<div class="column six push-six last-special">
+							<h2>Que estamos haciendo en las redes</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sagittis dui ut pharetra. Aenean faucibus orci sit amet libero iaculis, ac euismod metus tincidunt. </p>
+							<p>Vivamus tellus quam, lacinia sit amet massa ut, condimentum fermentum metus. Suspendisse metus velit, eleifend ut egestas sit amet, ultrices sit amet justo. Nullam laoreet magna ac orci porta facilisis. Morbi non turpis nec risus sagittis vulputate. Nam habitasse platea dictumst. </p>
+							<p>Ut vehicula dui in leo rutrum, sit amet laoreet velit ornare. Etiam vitae enim non arcu egestas pulvinar quis a justo. Phasellus facilisis justo volutpat, sagittis sem sed, imperdiet ligula.</p>
+							<a href="http://instagram.com/3torressv?ref=badge" class="ig-b- ig-b-v-24">
+							    <img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" />
+							</a>
+						</div>						
+						<div class="side-mockup left-mockup animation">
+							<div class="slider iphone-slider white" data-autoplay="3000">
+								<figure>
+									<div><img src="img/redes-1.png" alt=""></div>
+									<div><img src="img/redes-1.png" alt=""></div>
+									<div><img src="img/redes-1.png" alt=""></div>
+									<div><img src="img/redes-1.png" alt=""></div>
+									<div><img src="img/redes-1.png" alt=""></div>
+									<div><img src="img/redes-1.png" alt=""></div>
+								</figure>
+							</div>
+						</div>						
+					</div>	
+				</section>										
+				<section class="row section">
+					<div class="row-content buffer even clear-after">
+						<div class="twelve">
+							<div class="section-title"><h3>CONÓCENOS</h3></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sagittis dui ut pharetra. Aenean faucibus orci sit amet libero iaculis, ac euismod metus tincidunt. Vivamus tellus 
+								</p>
+						</div>					
+						<div class="column three">
+							<div class="count-item">
+								<div class="count-number" data-from="0" data-to="4300" data-speed="1000" data-refresh-interval="25"></div>
+								<div class="count-subject">Inodoros instalados</div>
+								<div class="small-icon red"><i class="icon icon-SW3TorresHome-05-02"></i></div>
+							</div><!-- count-item -->
+						</div>
+						<div class="column three">
+							<div class="count-item">
+								<div class="count-number" data-from="0" data-to="4000" data-speed="1500" data-refresh-interval="25"></div>
+								<div class="count-subject">Nuevos cantantes en su propio estudio</div>
+								<div class="small-icon red"><i class="icon icon-SW3TorresHome-05-03"></i></div>
+							</div><!-- count-item -->
+						</div>
+						<div class="column three">
+							<div class="count-item">
+								<div class="count-number" data-from="0" data-to="2650" data-speed="2000" data-refresh-interval="25"></div>
+								<div class="count-subject">Películas disfrutadas en familia</div>
+								<div class="small-icon red"><i class="icon icon-SW3TorresHome-05-04"></i></div>
+							</div><!-- count-item -->
+						</div>
+						<div class="column three last">
+							<div class="count-item">
+								<div class="count-number" data-from="0" data-to="470" data-speed="2500" data-refresh-interval="25"></div>
+								<div class="count-subject">Personas disfrutando un hogar</div>
+								<div class="small-icon red"><i class="icon icon-SW3TorresHome-05-05"></i></div>
+							</div><!-- count-item -->
+						</div>
+					</div>	
+				</section>
+				<section class="row section" id="mensajes">
+					<div class="row-content buffer even clear-after">
+						<div class="custom-carousel" data-autoplay="5000" data-pagination="true" data-transition="fade" data-autoheight="false">
+							<div class="carousel-item">
+								<!-- <div class="column four">
+									<img src="img/resume-img-01.png" alt="">
+								</div> -->
+								<div class="column twelve last">
+									<h3>“Construir sueños nos apasiona”</h3>
+									<p>Ingeniero de Proyectos.</p>
+								</div>
+							</div><!-- carousel-item -->
+							<div class="carousel-item">
+								<!-- <div class="column four">
+									<img src="img/resume-img-02.png" alt="">
+								</div> -->
+								<div class="column twelve last">
+									<h3>“Construir sueños nos apasiona”</h3>
+									<p>Ingeniero de Proyectos.</p>
+								</div>
+							</div><!-- carousel-item -->
+							<div class="carousel-item">
+								<!-- <div class="column four">
+									<img src="img/resume-img-03.png" alt="">
+								</div> -->
+								<div class="column twelve last">
+									<h3>“Construir sueños nos apasiona”</h3>
+									<p>Ingeniero de Proyectos.</p>
+								</div>
+							</div><!-- carousel-item -->
+						</div>			
+					</div>
+				</section>	
+				<section class="row section" id="nuestros-proyectos">
+					<div class="row-content buffer even clear-after">
+						<div class="section-title"><h3>NUESTROS PROYECTOS</h3></div>
+						<div class="row-content" id="content-proyect">
+							<div class="item column three">
+										<figure><img src="img/proyectos/nuestros-proyect-1.png" alt=""></figure>
+							</div>
+							<div class="item column three">
+										<figure><img src="img/proyectos/nuestros-proyect-2.png" alt=""></figure>
+							</div>
+							<div class="item column three">
+										<figure><img src="img/proyectos/nuestros-proyect-3.png" alt=""></figure>
+							</div>
+							<div class="item column three">
+										<figure><img src="img/proyectos/nuestros-proyect-4.png" alt=""></figure>
+							</div>
+						</div>
+				</section>	
+				<section class="row section">
+					<div class="map" data-maplat="51.511214" data-maplon="-0.119824" data-mapzoom="15" data-color="" data-height="22.222" data-img="img/marker.png" data-info="I am based in London, UK"></div>
+				</section>									
+			</div><!-- id-main -->
+		</main><!-- main -->
+
+		<footer role="contentinfo">
+			<div class="row">
+				<div class="row-content buffer clear-after">
+					<section id="top-footer">
+						<div class="widget column four"><!-- la class="widget" è forse generata utomaticamente da wp -->
+							<h4>Solicita tu Cita</h4>
+							<p>
+								Curabitur in enim ornare, dignissim massa a, pharetra nisi. Ut elementum nibh sed odio eleifend posuere. 
+								Nulla porta et justo commodo auctor.
+							</p>
+							<a href="">MÁS INFORMACIÓN</a>
+						</div>
+						<div class="widget column four" id="list-first">
+							<h4><a href="">
+									<i class="icon-SW3TorresHome-06"></i>
+								</a>
+								www.3torres.com
+							</h4>
+							<ul class="plain  column seven">
+								<li><a href="#">PROYECTOS FUTUROS</a></li>
+								<li><a href="#">PROYECTOS EN VENTA</a></li>
+								<li><a href="#">SOLICITA TU CITA</a></li>
+								<li><a href="#">NOTICIAS</a></li>
+							</ul>
+							<ul class="plain  column four">
+								<li><a href="#">BOLSA DE TRABAJO</a></li>
+								<li><a href="#">LIFE DESIGN</a></li>
+							</ul>
+						</div>								
+						<div class="widget column four">
+							<h4>Contáctanos</h4>
+							<ul class="plain" id="list-contact">
+								<li>
+									<a href="#"><i class="icon-SW3TorresHome-07"></i></a>
+									<span>Curabitur in enim ornare, dignissim massa a, pharetra nisi. </span>
+								</li>
+								<li>
+									<a href="#"><i class="icon-SW3TorresHome-08"></i></a>
+									<span>2288-0190 / 2229-7667</span>
+								</li>
+								<li>
+									<a href="#"><i class="icon-SW3TorresHome-09"></i></a>
+									<span>/3torresdi</span>
+								</li>
+							</ul>
+						</div>				
+					</section><!-- top-footer -->
+					<section id="bottom-footer">
+						<p class="keep-left">3 Torres &copy; 2014</p>
+						<div class="keep-right">
+							<p>Powered by </p>
+							 <img src="img/logo-emkt.png" alt="">
+						</div>
+					</section><!-- bottom-footer -->			
+				</div><!-- row-content -->	
+			</div><!-- row -->	
+		</footer>
+
+
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
+
+		<script src="js/plugins.js"></script>
+
+		<script src="js/beetle.js"></script>
+		<style>
+			.ig-b- {
+			    display: inline-block;
+			}
+			.ig-b- img {
+			    visibility: hidden;
+			}
+			.ig-b-:hover {
+			    background-position: 0 -60px;
+			}
+			.ig-b-:active {
+			    background-position: 0 -120px;
+			}
+			.ig-b-v-24 {
+			    width: 137px;
+			    height: 24px;
+			    background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0;
+			}
+			@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-: 	;ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+			    .ig-b-v-24 {
+			        background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png);
+			        background-size: 160px 178px;
+			    }
+			}
+		</style>		
+	</body>
+</html>
+
